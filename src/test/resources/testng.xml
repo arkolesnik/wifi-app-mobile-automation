@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Appium and Selenium mobile test for custom WiFi app" parallel="false" verbose="5">
+    <test name="Add Wifi connection">
+        <classes>
+            <class name="scenarios.MainMobileTest"/>
+            <parameter name="network" value="Example Wifi Network"/>
+        </classes>
+    </test>
+</suite>
